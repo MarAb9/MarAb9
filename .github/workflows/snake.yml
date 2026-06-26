@@ -11,6 +11,10 @@ on:
     branches:
       - main
 
+# Required so the action can push snake.svg to the "output" branch
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
