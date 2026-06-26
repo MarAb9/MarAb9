@@ -26,7 +26,7 @@
 ### 👨‍💻 About Me
 
 - 🚀 Full-stack developer who ships **production web apps end to end**
-- 🧠 Flagship project **Qrib Lik** — an AI-powered local-services marketplace with multilingual (Darija) search
+- 🧠 Flagship project **Qrib Lik** — an AI-powered local-services marketplace with multilingual search
 - 🛠️ Daily stack: **Angular · NestJS · Laravel · TypeScript · PostgreSQL/PostGIS · Docker**
 - ✅ LinkedIn-verified assessments in **PHP, JavaScript, Java, Node.js, C, CSS, NoSQL, Linux**
 - 🌍 Based in Morocco — building for the web, open to remote & freelance projects
@@ -71,9 +71,9 @@
   <img src="https://img.shields.io/badge/seeded_data-no_real_users-blue?style=flat-square"/>
 </p>
 
-> **Problem.** Finding a trusted local professional (painter, electrician, plumber) usually means asking around or scrolling unverified listings.
+> **Problem.** Finding a trusted local professional (painter, electrician, plumber...) usually means asking around or scrolling unverified listings.
 >
-> **What I built.** A marketplace where users describe a task in plain language — English, French, or **Moroccan Darija** ("bghit nsbgh l7it" → painter) — and the platform extracts intent with **Google Gemini**, then ranks nearby providers using **PostGIS** geospatial search and an explainable scoring system.
+> **What I built.** A marketplace where users describe a task in plain language — English, French, or Spanish — and the platform extracts intent with **Google Gemini**, then ranks nearby providers using **PostGIS** geospatial search and an explainable scoring system.
 >
 > **Engineering highlights.**
 > - AI search pipeline with a deterministic keyword fallback — search never breaks when the AI is down, rate-limited, or low-confidence.
