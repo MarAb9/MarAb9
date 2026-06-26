@@ -40,17 +40,18 @@
 
 > **Problem.** Finding a trusted local professional (painter, electrician, plumber) usually means asking around or scrolling unverified listings.
 >
-> **What I built.** A marketplace where users describe a task in plain language — English, French, or Moroccan Darija ("bghit nsbgh l7it" → painter) — and the platform extracts intent with Google Gemini, then ranks nearby providers using PostGIS geospatial search and an explainable scoring system.
+> **What I built.** A marketplace where users describe a task in plain language — English, French, or Spanish — and the platform extracts intent with Google Gemini, then ranks nearby providers using PostGIS geospatial search and an explainable scoring system.
 >
 > **Engineering highlights.**
 > - AI search pipeline with a deterministic keyword fallback, so search never breaks when the AI is down, rate-limited, or low-confidence.
 > - Prompt-injection-hardened AI layer — AI output is advisory only; deterministic backend rules own every final decision.
 > - Explainable scoring split into provider-quality ("Qrib Score") and request-relevance ("Match Score").
 
-**Stack:** Angular 21 (Signals + SSR on Cloudflare Workers) · NestJS · PostgreSQL/PostGIS · Prisma · Google Gemini · Docker
+**Stack:** Angular 21 (Signals + SSR on Cloudflare Workers) · NestJS · PostgreSQL/PostGIS · Prisma · Google Gemini · Docker + Fly.io + Vercel
 
-<!-- Add 2-3 screenshots or a short demo GIF here -->
-`📷 [screenshots / demo GIF]`
+[(https://qrib-lik-demo.vercel.app/)]
+`📷 [screenshots`
+<img width="1517" height="942" alt="image" src="https://github.com/user-attachments/assets/0e69f457-430c-4a57-ae45-cb0151aca105" />
 
 ---
 
@@ -59,9 +60,10 @@
 >
 > **What I built.** A full-stack platform to schedule meetings, link minutes to sessions, track tasks, store documents, and manage contacts — with a calendar view, reports, notifications, and role-based permissions. Arabic RTL interface.
 
-**Stack:** Next.js 16 · React 19 · TypeScript · Laravel · PostgreSQL · Docker · Nginx · Fly.io + Vercel
+**Stack:** Next.js 16 · React 19 · TypeScript · Laravel · PostgreSQL · Docker · Nginx · Oracle cloud +Neon  + Vercel
 
 `📷 [screenshots]`
+<img width="1274" height="812" alt="image" src="https://github.com/user-attachments/assets/7ed8e9fc-a8bd-4ffb-9e99-85dbe6f1f6d7" />
 
 ---
 
@@ -73,6 +75,7 @@
 **Stack:** Laravel 12 · PHP 8.2 · Blade · Tailwind CSS · MariaDB · Docker
 
 `📷 [screenshots]`
+<img width="1410" height="943" alt="leave system" src="https://github.com/user-attachments/assets/1631a19d-ac69-4ffa-bce9-d3f8b1321b21" />
 
 ---
 
@@ -82,9 +85,6 @@
 > **What I built.** A document management system to register correspondence with attachments, search across all records instantly, import from Excel, and keep a full audit log of every action. S3-compatible file storage. Arabic RTL.
 
 **Stack:** Laravel 11 · PostgreSQL · Redis · MinIO (S3) · Nginx · Docker
-
-`📷 [screenshots]`
-
 ---
 
 ### 🕌 Mosques Management  ·  *client-delivered*
