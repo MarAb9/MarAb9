@@ -63,7 +63,7 @@
 **Stack:** Next.js 16 · React 19 · TypeScript · Laravel · PostgreSQL · Docker · Nginx · Oracle cloud +Neon  + Vercel
 
 `📷 [screenshots]`
-<img width="1274" height="812" alt="image" src="https://github.com/user-attachments/assets/7ed8e9fc-a8bd-4ffb-9e99-85dbe6f1f6d7" />
+<img width="1840" height="906" alt="image" src="https://github.com/user-attachments/assets/0b1fdf5f-2bd9-44b7-9145-35b4fa93da72" />
 
 ---
 
